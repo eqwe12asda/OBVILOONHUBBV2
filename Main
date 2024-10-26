@@ -5484,35 +5484,4 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/FFJ1/Roblox-Exploits/
 })
   	end    
 })
-local Tab = Window:MakeTab({
-	Name = "Settings",
-	Icon = "rbxassetid://4483345998",
-	PremiumOnly = false
-})
-local Section = Tab:AddSection({
-	Name = "Settings"
-})
-Tab:AddToggle({
-	Name = "This is a toggle!",
-	Default = false,
-	Callback = function(Value)
-		print(Value)
-	end    
-})
-Tab:AddButton({
-	Name = "False",
-	Callback = function()
-CoolToggle:Set(true)
-
-})
-  	end    
-})
-Tab:AddButton({
-	Name = "True",
-	Callback = function()
-CoolToggle:Set(false)
-})
-  	end    
-})
-
 OrionLib:Init()
